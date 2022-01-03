@@ -1,0 +1,11 @@
+# configure server start commands in package.json
+Add below scripts block to package.json file IF NOT ALREADY ADDED
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "babel-node src/server/server.js --ignore dist/",
+    "dev-bundler": "webpack -w --mode=development"
+  }
+
+# run below commands from two different terminals in parallel
+  npm run dev-server
+  npm run dev-bundler
