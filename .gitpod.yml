@@ -2,15 +2,9 @@ tasks:
   - init: |
       npm install
       npm init -y
-      npm i react react-dom
-      npm i webpack webpack-cli
-      npm i express
-      npm install react-router-dom
-      npm i babel-loader @babel/core @babel/node @babel/preset-env @babel/preset-react
       npm i -D eslint babel-eslint eslint-plugin-react eslint-plugin-react-hooks
     command: |
-      npm run dev-server
-      npm run dev-bundler
+      echo "react container initialized"
 ports:
-  - port: 4242
+  - port: 8080
     onOpen: open-preview
