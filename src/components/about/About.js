@@ -7,7 +7,9 @@ function About() {
       This is application About Page.
       <br />
       <br />
-      <Link to="home">Home Page</Link>
+      <Link to="home" className="btn btn-primary btn-lg">
+        Home Page
+      </Link>
     </div>
   );
 }
