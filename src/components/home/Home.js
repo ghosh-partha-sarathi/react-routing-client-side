@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="jumbotron">
       <h4> Home </h4>
-      <br />
+      <h5>This is a parent component</h5>
       <br />
       <Link to="about" className="btn btn-primary btn-lg">
         About Page
