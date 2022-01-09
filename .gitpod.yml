@@ -5,8 +5,7 @@ tasks:
       npm i webpack webpack-cli webpack-dev-server
       npm i html-webpack-plugin
       npm i bootstrap
-      npm i css-loader style-loader
-      npm i express
+      npm i css-loader style-loader 
       npm i @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader
       npm i -D eslint babel-eslint eslint-plugin-react eslint-plugin-react-hooks
     command: |
