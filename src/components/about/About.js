@@ -7,7 +7,7 @@ function About() {
       <h4> About </h4>
       <br />
       <br />
-      <Link to="home" className="btn btn-primary btn-lg">
+      <Link to="/" className="btn btn-primary btn-lg">
         Home Page
       </Link>
     </div>
